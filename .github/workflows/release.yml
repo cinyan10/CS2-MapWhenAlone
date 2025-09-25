@@ -18,7 +18,7 @@ jobs:
           dotnet-version: "8.0.x"
 
       - name: Restore
-        run: dotnet restore
+        run: dotnet restore MapWhenAlone.sln
 
       - name: Build
         run: dotnet build -c Release
@@ -26,7 +26,7 @@ jobs:
       - name: Package
         run: |
           mkdir -p release/addons/counterstrikesharp/plugins/MapWhenAlone
-          cp MapWhenAlone/bin/Release/net8.0/MapWhenAlone.dll release/addons/counterstrikesharp/plugins/MapWhenAlone/
+          cp bin/Release/net8.0/MapWhenAlone.dll release/addons/counterstrikesharp/plugins/MapWhenAlone/
           cd release
           zip -r ../MapWhenAlone.zip addons
 
