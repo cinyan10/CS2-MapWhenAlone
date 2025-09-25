@@ -1,0 +1,36 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build -c Release
+
+      - name: Package
+        run: |
+          mkdir -p release/addons/counterstrikesharp/plugins/MapWhenAlone
+          cp bin/Release/net8.0/MapWhenAlone.dll release/addons/counterstrikesharp/plugins/MapWhenAlone/
+          cd release
+          zip -r ../MapWhenAlone.zip addons
+
+      - name: Upload Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: MapWhenAlone.zip

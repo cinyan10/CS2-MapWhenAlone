@@ -10,7 +10,7 @@ using System.Text.Json;
 public class SoloMapChange : BasePlugin
 {
     public override string ModuleName => "Solo Map Changer";
-    public override string ModuleVersion => "1.3";
+    public override string ModuleVersion => "1.0.0";
     public override string ModuleAuthor => "Cinyan10";
 
     private Dictionary<string, string> _workshopIds = new();

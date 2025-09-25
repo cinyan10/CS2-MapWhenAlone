@@ -1,12 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- Plugin Info -->
+		<AssemblyName>MapWhenAlone</AssemblyName>
+		<LangVersion>latest</LangVersion>
+
+		<!-- Output goes here before zipping -->
+		<OutputPath>bin\Release\net8.0\</OutputPath>
+	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="CounterStrikeSharp.API" Version="1.0.340" />
+		<PackageReference Include="CounterStrikeSharp.API" Version="1.0.340" />
 	</ItemGroup>
+
 </Project>
