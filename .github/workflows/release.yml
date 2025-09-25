@@ -26,7 +26,8 @@ jobs:
       - name: Package
         run: |
           mkdir -p release/addons/counterstrikesharp/plugins/MapWhenAlone
-          cp bin/Release/net8.0/net8.0/MapWhenAlone.dll release/addons/counterstrikesharp/plugins/MapWhenAlone/          cd release
+          cp MapWhenAlone/bin/Release/net8.0/MapWhenAlone.dll release/addons/counterstrikesharp/plugins/MapWhenAlone/
+          cd release
           zip -r ../MapWhenAlone.zip addons
 
       - name: Upload Release
