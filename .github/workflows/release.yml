@@ -25,12 +25,18 @@ jobs:
 
       - name: Package
         run: |
+          VERSION=${GITHUB_REF_NAME}
           mkdir -p release/addons/counterstrikesharp/plugins/MapWhenAlone
-          cp bin/Release/net8.0/MapWhenAlone.dll release/addons/counterstrikesharp/plugins/MapWhenAlone/
+          DLL=$(find bin/Release -name "MapWhenAlone.dll" | head -n 1)
+          if [ -z "$DLL" ]; then
+            echo "Could not find MapWhenAlone.dll"
+            exit 1
+          fi
+          cp "$DLL" release/addons/counterstrikesharp/plugins/MapWhenAlone/
           cd release
-          zip -r ../MapWhenAlone.zip addons
+          zip -r ../MapWhenAlone-${VERSION}.zip addons
 
       - name: Upload Release
         uses: softprops/action-gh-release@v1
         with:
-          files: MapWhenAlone.zip
+          files: MapWhenAlone-${{ github.ref_name }}.zip
