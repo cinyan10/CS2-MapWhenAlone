@@ -18,10 +18,10 @@ jobs:
           dotnet-version: "8.0.x"
 
       - name: Restore
-        run: dotnet restore MapWhenAlone.sln
+        run: dotnet restore MapWhenAlone.csproj
 
       - name: Build
-        run: dotnet build -c Release
+        run: dotnet build MapWhenAlone.csproj -c Release
 
       - name: Package
         run: |
