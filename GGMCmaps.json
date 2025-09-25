@@ -1,0 +1,154 @@
+{
+  "kz_checkmate": {
+    "ws": true,
+    "display": "kz_checkmate",
+    "mapid": "3070194623",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_grotto": {
+    "ws": true,
+    "display": "kz_grotto",
+    "mapid": "3121168339",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_igneous": {
+    "ws": true,
+    "display": "kz_igneous",
+    "mapid": "3102712799",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_serfdom": {
+    "ws": true,
+    "display": "kz_serfdom",
+    "mapid": "3162361624",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_leviathan": {
+    "ws": true,
+    "display": "kz_leviathan",
+    "mapid": "3374560468",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_niche": {
+    "ws": true,
+    "display": "kz_niche",
+    "mapid": "3160291769",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_key": {
+    "ws": true,
+    "display": "kz_key",
+    "mapid": "3344417199",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_consequence": {
+    "ws": true,
+    "display": "kz_consequence",
+    "mapid": "3250581189",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_ehcivec_final": {
+    "ws": true,
+    "display": "kz_ehcivec_final",
+    "mapid": "3082213334",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_phamous": {
+    "ws": true,
+    "display": "kz_phamous",
+    "mapid": "3104579274",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_bhop_apricity": {
+    "ws": true,
+    "display": "kz_bhop_apricity",
+    "mapid": "3514400945",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_madhatter": {
+    "ws": true,
+    "display": "kz_madhatter",
+    "mapid": "3540061470",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_lumen": {
+    "ws": true,
+    "display": "kz_lumen",
+    "mapid": "3429375699",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_labour": {
+    "ws": true,
+    "display": "kz_labour",
+    "mapid": "3164403123",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_greebochki": {
+    "ws": true,
+    "display": "kz_greebochki",
+    "mapid": "3534437146",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_devon": {
+    "ws": true,
+    "display": "kz_devon",
+    "mapid": "3434238689",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_jakke": {
+    "ws": true,
+    "display": "kz_jakke",
+    "mapid": "3428669060",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_minecraft_village": {
+    "ws": true,
+    "display": "kz_minecraft_village",
+    "mapid": "3490455192",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  },
+  "kz_summercliff2": {
+    "ws": true,
+    "display": "kz_summercliff2",
+    "mapid": "3353950265",
+    "minplayers": 1,
+    "maxplayers": 16,
+    "weight": 1
+  }
+}
